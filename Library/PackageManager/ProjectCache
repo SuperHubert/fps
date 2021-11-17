@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637695367701744327
-    m_Hash: 433308394
+      ticks: 637704321915943471
+    m_Hash: 553435570
   m_LockFileStatus:
     m_FilePath: C:/Unity/Cours Unity 02/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637695368215343738
-    m_Hash: 4203878319
+      ticks: 637704321915943471
+    m_Hash: 2215873273
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -2817,6 +2817,7 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
+        - 1.2.4
         compatible:
         - 0.0.12-preview.2
         - 0.0.12-preview.5
@@ -2832,7 +2833,8 @@ m_PackageAssets:
         - 1.1.0-preview.1
         - 1.1.0
         - 1.2.1
-        verified: 1.2.1
+        - 1.2.4
+        verified: 1.2.4
       dependencies: []
       resolvedDependencies: []
       keywords:
@@ -3203,6 +3205,7 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
         compatible:
         - 4.0.0-preview
         - 4.0.0
@@ -3218,6 +3221,7 @@ m_PackageAssets:
         - 4.3.2
         - 4.6.0-preview
         - 4.7.0-preview
+        - 4.9.1
         verified: 4.3.2
       dependencies: []
       resolvedDependencies: []

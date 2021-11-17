@@ -16,9 +16,9 @@ public class ProjectileController : MonoBehaviour
 
         Destroy(Instantiate(prefab, transform.position, transform.rotation), 5);
 
-        if (other.transform.GetComponent<Damageable>() != null)
+        if (other.gameObject.GetComponent<Enemy>() != null)
         {
-            other.transform.GetComponent<Damageable>().TakeDamage(damage);
+            other.gameObject.GetComponent<Enemy>().TakeDamage(damage);
         }
     }
 }

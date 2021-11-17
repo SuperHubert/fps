@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7722462008396686298}
   - component: {fileID: 5870272475970872125}
   - component: {fileID: 3958779077967051887}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -107,7 +107,7 @@ GameObject:
   - component: {fileID: 7012410288225754984}
   - component: {fileID: 4059480381932836951}
   - component: {fileID: 5822846977928080343}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -199,7 +199,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8041706225075503155}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Right Bullet Second
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -234,7 +234,7 @@ GameObject:
   - component: {fileID: 4643430707029014221}
   - component: {fileID: 112136024530861949}
   - component: {fileID: 154298381900488600}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 2863761834765232553}
   - component: {fileID: 6524347974034633162}
   - component: {fileID: 7040974007641616624}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -424,7 +424,7 @@ GameObject:
   - component: {fileID: 1814026814748923993}
   - component: {fileID: 2623215086976977282}
   - component: {fileID: 6366779622972712279}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -516,7 +516,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1277876940325641306}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Right Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -547,7 +547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9031991855073057888}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Left Bullet Second
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -583,7 +583,7 @@ GameObject:
   - component: {fileID: 2250243853431945970}
   - component: {fileID: 6117006704601378109}
   - component: {fileID: 7696352606408494527}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +695,7 @@ GameObject:
   - component: {fileID: 6331939644738481069}
   - component: {fileID: 8206704911376601775}
   - component: {fileID: 6951008779323353800}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -787,7 +787,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8945144162356093291}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Left Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -822,7 +822,7 @@ GameObject:
   - component: {fileID: 6637353393020938562}
   - component: {fileID: 1079707853310692218}
   - component: {fileID: 3255437988202626332}
-  m_Layer: 7
+  m_Layer: 9
   m_Name: main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 6847289801477508968}
   - component: {fileID: 7478763542651656399}
   - component: {fileID: 3648011311522417734}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Back Handle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1026,7 +1026,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5661735119004881064}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Back
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1061,8 +1061,8 @@ GameObject:
   - component: {fileID: 6969774956121898332}
   - component: {fileID: 6969774956121898273}
   - component: {fileID: 6969774956121898274}
-  m_Layer: 6
-  m_Name: Left Barrel
+  m_Layer: 9
+  m_Name: Right Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1143,7 +1143,8 @@ GameObject:
   m_Component:
   - component: {fileID: 6969774957113672333}
   - component: {fileID: 7102656016264219267}
-  m_Layer: 6
+  - component: {fileID: 949783706}
+  m_Layer: 9
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1185,6 +1186,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &949783706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6969774957113672334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e06e55c7e6970dc4c89d43b0ed5aa92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barrels:
+  - {fileID: 6969774957340254968}
+  - {fileID: 6969774956121898332}
+  bulletPrefab: {fileID: 282455928459131505, guid: 755dbc863f645f14eafccb83fd803bbf, type: 3}
+  isTryingToShoot: 0
+  maxAmmo: 2
+  currentAmmo: 0
+  bulletForce: 1000
+  reloadDuration: 1
+  isReloading: 0
+  player: {fileID: 0}
+  knockbackForce: 0
 --- !u!1 &6969774957340254969
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,8 +1221,8 @@ GameObject:
   - component: {fileID: 6969774957340254968}
   - component: {fileID: 6969774957340254973}
   - component: {fileID: 6969774957340254974}
-  m_Layer: 6
-  m_Name: Right Barrel
+  m_Layer: 9
+  m_Name: Left Barrel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1280,7 +1305,7 @@ GameObject:
   - component: {fileID: 8349708254211898985}
   - component: {fileID: 7222141038676692222}
   - component: {fileID: 7777720756389329392}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Back Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1375,7 +1400,7 @@ GameObject:
   - component: {fileID: 9179052462674010991}
   - component: {fileID: 3478863325950769693}
   - component: {fileID: 3943160986107846949}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Front Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1470,7 +1495,7 @@ GameObject:
   - component: {fileID: 5752079477466135126}
   - component: {fileID: 8813803426106891743}
   - component: {fileID: 7589113695709190532}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: ring
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1562,7 +1587,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 507885814420972460}
-  m_Layer: 6
+  m_Layer: 9
   m_Name: Front
   m_TagString: Untagged
   m_Icon: {fileID: 0}

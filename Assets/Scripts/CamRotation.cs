@@ -10,10 +10,8 @@ public class CamRotation : MonoBehaviour
     public float lookXLimit = 75;
     public float yAxis;
     public float xAxis;
-
-
-    private float rotationX;
     
+    private float rotationX;
     
     void Update()
     {
@@ -22,7 +20,5 @@ public class CamRotation : MonoBehaviour
         head.localRotation = quaternion.Euler(rotationX,0,0);
         
         transform.rotation *= quaternion.Euler(0,xAxis*rotationSpeed,0);
-        
-        Debug.DrawRay(transform.position, transform.forward*5, Color.green);
     }
 }

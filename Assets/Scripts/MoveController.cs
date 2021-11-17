@@ -26,7 +26,12 @@ public class MoveController : MonoBehaviour
         {
             rb.AddForce(transform.up*jumpForce);
         }
-        
+    }
+    
+    
+    public void Knockback()
+    {
+        rb.AddForce(transform.GetChild(0).forward*-jumpForce*10);
     }
     
 }

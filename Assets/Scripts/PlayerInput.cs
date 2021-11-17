@@ -7,13 +7,12 @@ public class PlayerInput : MonoBehaviour
 {
     private CamRotation rotationController;
     private MoveController moveController;
-    private ForceANature forceANature;
+    [SerializeField] private WeaponManager weaponManager;
 
     private void Start()
     {
         rotationController = transform.GetComponent<CamRotation>();
         moveController = transform.GetComponent<MoveController>();
-        forceANature = transform.GetComponent<ForceANature>();
     }
 
     private void Update()
@@ -23,7 +22,16 @@ public class PlayerInput : MonoBehaviour
 
         moveController.horizontalAxis = Input.GetAxis("Horizontal");
         moveController.verticalAxis = Input.GetAxis("Vertical");
-
-        forceANature.isTryingToShoot = Input.GetButtonDown("Fire1");
+        
+        weaponManager.GetCurrentWeapon().GetComponent<WeaponBase>().isTryingToShoot = Input.GetButtonDown("Fire1");
+        weaponManager.GetCurrentWeapon().GetComponent<WeaponBase>().isTryingToReload = Input.GetKeyDown(KeyCode.R);
+        
+        Screen.lockCursor = !Input.GetKey(KeyCode.Tab);
+        
+        if (Input.GetKeyDown(KeyCode.A))
+        {
+            weaponManager.NextWeapon();
+        }
+        
     }
 }
